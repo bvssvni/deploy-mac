@@ -44,7 +44,23 @@ If you see "Make Rich Text" instead, skip this step.
     </dict>
     </plist>
     
-1.7 Replace "{executable}" with the file
+1.7 Replace "{executable}" with the file name inside "MacOS" that starts the program.
+
+1.8 Replace "{company}" with the name of your company.
+
+If you do not have a company, make up one name.
+
+1.9 Replace "{product}" with the name of your product.
+
+1.10 Save the file in the "Contents" folder.
+
+1.11 Rename the "{your app}" folder to "{your app}.app".
+
+The folder structure should now seem like one file in Finder.
+
+1.12 Double-click the icon to test.
+
+If something is wrong, remove the ".app" ending to get back the folder structure.
 
 ##Example Info.plist From MonoDevelop
 
